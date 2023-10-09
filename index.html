@@ -1,40 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Revolution Phone</h1>
+          <h3>新品手机发布会</h3>
+        </section>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+        <section>
+          <section
+            data-background-image="https://media.cnn.com/api/v1/images/stellar/prod/230718105811-steve-jobs-iphone-2007.jpg"
+          >
+            <!-- 123 -->
+          </section>
+          <section
+            data-background-image="https://media.cnn.com/api/v1/images/stellar/prod/230718105811-steve-jobs-iphone-2007.jpg"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b9/IPod.png"
+              alt=""
+            />
+            <h2>大屏幕</h2>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+            <p>wildscreen iPod with touch controls</p>
+          </section>
+
+          <section data-background-image="./dist/pics/safari.png">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/52/Safari_browser_logo.svg"
+              alt=""
+            />
+            <h2>突破性的互联网浏览器</h2>
+            <p>breakthrough Internet communicator</p>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>浏览器</h1>
+            <div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </section>
+
+          <section
+            data-background-image="https://i0.wp.com/www.geekcosmos.com/wp-content/uploads/2018/09/iPhone-XS-Max_X-2G_resolutions-screen-size-comparison.png"
+          ></section>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
